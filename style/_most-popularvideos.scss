@@ -1,0 +1,13 @@
+.most-section {
+  background-color: #0d0808;
+  padding-top: 17px;
+  .ifrme-sec {
+    iframe {
+      @include respond-below(md){
+        width: 230px;
+      }
+    }
+  }
+
+  padding-bottom: 137px;
+}

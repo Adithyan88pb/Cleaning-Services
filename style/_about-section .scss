@@ -1,0 +1,29 @@
+.about-section {
+    // background-color: #212529 !important;
+    background-color: #141d2a;
+    padding-top: 77px;
+    // padding-bottom: 70px;
+    padding-bottom: 106px;
+    .text1 {
+        height: auto;
+        animation-name: slide;
+        animation-duration: 4s;
+        -o-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+      }
+  
+      @keyframes slide {
+        0% {
+          transform: translateY(0px);
+        }
+  
+        50% {
+          transform: translateY(-15px);
+        }
+  
+        100% {
+          transform: translateY(0px);
+        }
+      }
+  
+}

@@ -1,0 +1,23 @@
+.Services-section {
+    background-color: #212529 !important;
+    padding-bottom: 70px;
+
+    .Services{
+        .card{
+            .btn-main {
+                height: 30px;
+                border-radius: 10px;
+                &:hover{
+                    background-color: rgb(27, 173, 173);
+                }
+                a{
+                    font-size: 14px;
+                    padding: 0px;
+                }
+            }
+           
+        }
+       
+      
+    }
+}

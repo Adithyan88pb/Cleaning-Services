@@ -1,0 +1,50 @@
+.banner {
+  padding-top: 90px;
+  padding-bottom: 70px;
+  // height: 100vh;
+  @include respond-below(sm) {
+    padding-bottom: 70px;
+  }
+  @include respond-above(xl) {
+    height: 100vh;
+  }
+  background-color: #0e0e0e;
+  // background-color: #0d1517;
+
+  .landing-section {
+    .main-img img {
+      height: auto;
+      animation-name: slide;
+      animation-duration: 2s;
+      -o-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes slide {
+      0% {
+        transform: translateY(0px);
+      }
+
+      50% {
+        transform: translateY(-15px);
+      }
+
+      100% {
+        transform: translateY(0px);
+      }
+    }
+
+    .promo-title {
+      font-size: 40px;
+      font-weight: 600;
+      margin-top: 100px;
+    }
+    .btn-main {
+      border-radius: 20px;
+      margin-top: 10px;
+      padding: 0px;
+      height: 50px;
+      width: 127px;
+    }
+  }
+}
